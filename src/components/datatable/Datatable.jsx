@@ -48,7 +48,6 @@ const Datatable = () => {
       unsub();
     };
   }, []);
-  console.log(data);
 
   const handleDelete = async (id) => {
     try {
@@ -84,7 +83,7 @@ const Datatable = () => {
   return (
     <div className='datatable'>
       <div className='datatableTitle'>
-        Add New User
+        Contratos
         <Link to='/users/new' className='link'>
           Add New
         </Link>
